@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "Drink Water",
+    "description": "This is a app which will remind you to drink water.",
+    "slug": "remind-to-drink-water",
+    "privacy": "public",
+    "notification": {
+      "icon": "./assets/iconPushNotification.png"
+    },
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "userInterfaceStyle": "automatic",
+      "versionCode": 1,
+      "googleServicesFile": "./google-services.json",
+      "permissions": [],
+      "package": "app.web.prashoonapps.remindtodrinkwater",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/icon.png"
+    }
+  }
+}
